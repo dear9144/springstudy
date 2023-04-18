@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+	<!-- 
+		반갑다. 난 Spring Bean COnfiguration File이야
+		난 IoC Container(스프링 컨테이너)에 Bean을 만들어 두는 파일이지
+		내가 <bean> 태그를 사용하면 Bean이 만들어져 보관 돼  
+	
+	 -->
+	 
+	 <!-- Calculator calc = new Calculator(); -->
+	
+	
+
+	<!-- 
+		Student student = new Student();
+		student.setCalculator(calc);
+		student.setStuNo("10101");
+		student.setName("강나래");
+	 -->
+	 
+	 <!-- 
+	 	default constructor + setter
+	  -->
+	 
+	 <bean id="calc" class="com.gdu.app01.xml01.Calculator" />
+	 <bean id="student" class="com.gdu.app01.xml01.Student">
+	 	<property name="stuNo" value="10101" />
+	 	<property name="name" value="강나래" />
+	 	<property name="calculator" ref="calc" />
+	 </bean>
+</beans>
