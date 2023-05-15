@@ -1,0 +1,11 @@
+package com.gdu.app12.util;
+
+public class SecurityUtil {
+
+	//xss 방지하기 
+	public String preventXSS(String str) {
+		str = str.replace("<", "&lt;");
+		str = str.replace(">", "&gt");
+		return str;
+	}
+}

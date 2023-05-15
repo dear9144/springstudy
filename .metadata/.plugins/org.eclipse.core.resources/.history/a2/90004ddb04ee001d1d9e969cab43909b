@@ -1,0 +1,10 @@
+package com.gdu.app11.service;
+
+import org.springframework.web.multipart.MultipartHttpServletRequest;
+
+import com.gdu.app11.domain.AttachDTO;
+
+public interface UploadService {
+	public int addUpload(MultipartHttpServletRequest multipartRequest);
+	public int addAttach(AttachDTO attachDTO);
+}

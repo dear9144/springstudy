@@ -1,0 +1,14 @@
+package com.gdu.app11.service;
+
+import com.gdu.app11.domain.AttachDTO;
+import com.gdu.app11.mapper.UploadMapper;
+
+public class UploadService implements UploadMapper {
+
+	@Override
+	public int addAttach(AttachDTO attachDTO) {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+}

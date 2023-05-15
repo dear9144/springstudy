@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;application.properties&apos; to &apos;mapper&apos;&#x0D;&#x0A;- Original project: &apos;07_Mybatis_MockMvc&apos;&#x0D;&#x0A;- Destination element: &apos;mapper&apos;&#x0D;&#x0A;- Original element: &apos;application.properties&apos;" description="Copy file" element1="src/main/resources/application.properties" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1682314745748" target="/08_Mybatis_Batch/src/main/resources/mybatis/mapper" units="0" version="1.0"/>
+</session>

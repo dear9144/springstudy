@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=03_Ajax/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gdu.app03.service{ISecondService.java[ISecondService" modifiers="513" timestamp="1681437092776"/>
+    <typeInfo handle="=03_Ajax/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gdu.app03.service{IThirdService.java[IThirdService" modifiers="513" timestamp="1681438330165"/>
+    <typeInfo handle="=04_Jdbc_JUnit/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gdu.app04.service{BoardService.java[BoardService" modifiers="513" timestamp="1681696021519"/>
+    <typeInfo handle="=05_Dbcp_Logback/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gdu.app05.service{BoardService.java[BoardService" modifiers="513" timestamp="1681805140628"/>
+    <typeInfo handle="=07_Mybatis_MockMvc/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gdu.app07.service{BoardService.java[BoardService" modifiers="513" timestamp="1682218575283"/>
+    <typeInfo handle="=09_Pjt_List/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gdu.app09.service{EmployeeListService.java[EmployeeListService" modifiers="513" timestamp="1682563039387"/>
+    <typeInfo handle="=11_Pjt_Upload/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gdu.app11.mapper{UploadMapper.java[UploadMapper" modifiers="513" timestamp="1683763872140"/>
+    <typeInfo handle="=11_Pjt_Upload/src\/main\/java=/optional=/true=/=/maven.pomderived=/true=/&lt;com.gdu.app11.service{UploadService.java[UploadService" modifiers="513" timestamp="1683700619653"/>
+    <typeInfo handle="=11_Pjt_Upload/C:\/Users\/user\/.m2\/repository\/commons-fileupload\/commons-fileupload\/1.5\/commons-fileupload-1.5.jar=/maven.pomderived=/true=/=/org.eclipse.jst.component.dependency=/\/WEB-INF\/lib=/=/maven.pomderived=/true=/=/org.eclipse.jst.component.archivename=/commons-fileupload-1.5.jar=/=/maven.groupId=/commons-fileupload=/=/maven.artifactId=/commons-fileupload=/=/maven.version=/1.5=/=/maven.scope=/compile=/&lt;org.apache.commons.fileupload(UploadContext.class[UploadContext" modifiers="1537" timestamp="1683508998923"/>
+</typeInfoHistroy>
