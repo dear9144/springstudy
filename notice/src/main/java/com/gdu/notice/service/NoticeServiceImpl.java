@@ -25,13 +25,13 @@ public class NoticeServiceImpl implements NoticeService {
 	// 파라미터 notice_no가 전달되지 않았다면 notice_no=0을 사용하여 상세 조회 결과를 반환하시오.
 	@Override
 	public NoticeDTO getNotice(HttpServletRequest request) {
-		return noticeDAO.getNotice(0);
+		return noticeDAO.getNotice(notice_no);
 	}
 
 	// 파라미터 gubun, title, content 값을 notice 테이블에 삽입하고, 삽입 결과를 반환하시오.
 	@Override
 	public int addNotice(HttpServletRequest request) {
-		return 0;
+		return noticeDAO.addNotice(notice);
 	}
 
 	// 파라미터 notice_no, gubun, title, content 값을 가진 NoticeDTO 객체를 이용하여 notice 테이블을 수정하고, 수정 결과를 반환하시오.

@@ -60,22 +60,23 @@ public class NoticeDAO {
 	
 	// 전달 받은 공지번호(notice_no)를 가진 공지사항을 반환하시오. 공지번호가 일치하는 공지사항이 없다면 null을 반환하시오.
 	public NoticeDTO getNotice(int notice_no) {
-		NoticeDTO addResult = null;
+		NoticeDTO notice = null;
 		try {
-		con = getConnection();
-		sql = "SELECT NOTICE_NO, GUBUN, TITLE, CONTENT FROM NOTICE WHERE NOTICE_NO = ?";
-		ps = con.prepareStatement(sql);
-		ps.setInt(1, notice_no);
-		rs = ps.executeQuery();
-		if(rs.next()) {
-			addResult = new NoticeDTO(rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getString(4));
-		}
-		}catch(Exception e) {
+			con = getConnection();
+			sql = "SELECT NOTICE_NO, GUBUN, TITLE, CONTENT FROM NOTICE WHERE NOTICE_NO = ?";
+			ps = con.prepareStatement(sql);
+			ps.setInt(1, notice_no);
+			rs = ps.executeQuery();
+			if(rs.next()) {
+				notice = new NoticeDTO(rs.getInt(1), rs.getInt(2), rs.getString(3), rs.getString(4)); 
+			}
+		}catch(Exception e){
 			e.printStackTrace();
 		}finally {
 			close();
 		}
-		return addResult;
+		
+		return notice;
 	}
 	
 	// 전달된 NoticeDTO 객체의 값을 이용해서 NOTICE 테이블에 데이터를 삽입하시오. 삽입 결과를 반환하시오.

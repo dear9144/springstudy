@@ -55,7 +55,7 @@
 					<td>${n.notice_no}</td>
 					<td>${n.title}</td>
 				</tr>
-			</c:forEach>
+				</c:forEach>
 			</tbody>
 		</table>
 	</div>
