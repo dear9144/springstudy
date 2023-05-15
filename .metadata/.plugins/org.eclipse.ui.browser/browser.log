@@ -1,7 +1,0 @@
-
-4월 18, 2023 18:48:47.848 NEW SESSION
-4월 18, 2023 18:48:47.848 [6616:8548:0418/184847.845:ERROR:device_event_log_impl.cc(222)] [18:48:47.846] USB: usb_service_win.cc:415 Could not read device interface GUIDs: 지정된 파일을 찾을 수 없습니다. (0x2)
-4월 18, 2023 18:48:47.848 [6616:8548:0418/184847.847:ERROR:device_event_log_impl.cc(222)] [18:48:47.847] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
-4월 18, 2023 18:48:47.849 [6616:8548:0418/184847.847:ERROR:device_event_log_impl.cc(222)] [18:48:47.847] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
-4월 18, 2023 18:48:47.849 [6616:8548:0418/184847.847:ERROR:device_event_log_impl.cc(222)] [18:48:47.847] USB: usb_device_handle_win.cc:1046 Failed to read descriptor from node connection: 시스템에 부착된 장치가 작동하지 않습니다. (0x1F)
-4월 18, 2023 18:48:48.87 INFO: Created TensorFlow Lite XNNPACK delegate for CPU.
